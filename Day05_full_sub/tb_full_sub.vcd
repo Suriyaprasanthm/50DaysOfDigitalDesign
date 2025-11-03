@@ -1,0 +1,81 @@
+$date
+	Sat Aug  9 08:57:57 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_full_sub $end
+$var wire 1 ! tb_n_out $end
+$var wire 1 " tb_d_out $end
+$var wire 1 # tb_b_out $end
+$var wire 1 $ tb_a3_out $end
+$var wire 1 % tb_a2_out $end
+$var wire 1 & tb_a1_out $end
+$var reg 1 ' tb_a_in $end
+$var reg 1 ( tb_b_in $end
+$var reg 1 ) tb_c_in $end
+$scope module dut $end
+$var wire 1 & a1_out $end
+$var wire 1 % a2_out $end
+$var wire 1 $ a3_out $end
+$var wire 1 ' a_in $end
+$var wire 1 ( b_in $end
+$var wire 1 # b_out $end
+$var wire 1 ) c_in $end
+$var wire 1 " d_out $end
+$var wire 1 ! n_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#10
+1#
+1"
+1%
+1)
+#20
+0%
+1&
+0)
+1(
+#30
+0"
+1%
+1$
+1)
+#40
+0#
+0%
+0&
+0$
+1"
+0!
+0)
+0(
+1'
+#50
+0"
+1)
+#60
+0)
+1(
+#70
+1#
+1"
+1$
+1)
+#80
