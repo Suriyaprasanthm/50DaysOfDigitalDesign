@@ -1,0 +1,71 @@
+$date
+	Tue Nov  4 05:35:38 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_fourbit_adder $end
+$var wire 4 ! tb_s_out [3:0] $end
+$var wire 1 " tb_c_out $end
+$var reg 4 # tb_a_in [3:0] $end
+$var reg 4 $ tb_b_in [3:0] $end
+$var reg 1 % tb_c_in $end
+$scope module dut $end
+$var wire 4 & a_in [3:0] $end
+$var wire 4 ' b_in [3:0] $end
+$var wire 1 ( c1 $end
+$var wire 1 ) c2 $end
+$var wire 1 * c3 $end
+$var wire 1 % c_in $end
+$var wire 1 " c_out $end
+$var wire 4 + s_out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1011 +
+0*
+0)
+0(
+b1010 '
+b1 &
+0%
+b1010 $
+b1 #
+0"
+b1011 !
+$end
+#10
+1)
+1(
+b1111 !
+b1111 +
+1%
+b1011 $
+b1011 '
+b11 #
+b11 &
+#20
+1"
+0(
+1*
+b1 !
+b1 +
+0%
+b1010 $
+b1010 '
+b111 #
+b111 &
+#30
+1(
+b1110 !
+b1110 +
+b1111 $
+b1111 '
+b1111 #
+b1111 &
+#40
