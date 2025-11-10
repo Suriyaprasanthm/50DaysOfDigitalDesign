@@ -1,0 +1,74 @@
+$date
+	Mon Aug 25 10:38:15 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_mux $end
+$var wire 1 ! tb_y_out $end
+$var wire 1 " tb_nc_out $end
+$var wire 1 # tb_nb_out $end
+$var wire 1 $ tb_a4_out $end
+$var wire 1 % tb_a3_out $end
+$var wire 1 & tb_a2_out $end
+$var wire 1 ' tb_a1_out $end
+$var reg 1 ( tb_b_in $end
+$var reg 1 ) tb_c_in $end
+$var reg 1 * tb_i0_in $end
+$var reg 1 + tb_i1_in $end
+$var reg 1 , tb_i2_in $end
+$var reg 1 - tb_i3_in $end
+$scope module dut $end
+$var wire 1 ' a1_out $end
+$var wire 1 & a2_out $end
+$var wire 1 % a3_out $end
+$var wire 1 $ a4_out $end
+$var wire 1 ( b_in $end
+$var wire 1 ) c_in $end
+$var wire 1 * i0_in $end
+$var wire 1 + i1_in $end
+$var wire 1 , i2_in $end
+$var wire 1 - i3_in $end
+$var wire 1 # nb_out $end
+$var wire 1 " nc_out $end
+$var wire 1 ! y_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0-
+1,
+0+
+1*
+0)
+0(
+1'
+0&
+0%
+0$
+1#
+1"
+1!
+$end
+#10
+0!
+0'
+0"
+1)
+#20
+1!
+1%
+1"
+0#
+0)
+1(
+#30
+0!
+0%
+0"
+1)
+#40
