@@ -1,0 +1,83 @@
+$date
+	Wed Nov  5 06:52:11 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_decoder3x8 $end
+$var wire 1 ! tb_o8_out $end
+$var wire 1 " tb_o7_out $end
+$var wire 1 # tb_o6_out $end
+$var wire 1 $ tb_o5_out $end
+$var wire 1 % tb_o4_out $end
+$var wire 1 & tb_o3_out $end
+$var wire 1 ' tb_o2_out $end
+$var wire 1 ( tb_o1_out $end
+$var reg 1 ) tb_i1_in $end
+$var reg 1 * tb_i2_in $end
+$var reg 1 + tb_i3_in $end
+$scope module dut $end
+$var wire 1 ) i1_in $end
+$var wire 1 * i2_in $end
+$var wire 1 + i3_in $end
+$var wire 1 ( o1_out $end
+$var wire 1 ' o2_out $end
+$var wire 1 & o3_out $end
+$var wire 1 % o4_out $end
+$var wire 1 $ o5_out $end
+$var wire 1 # o6_out $end
+$var wire 1 " o7_out $end
+$var wire 1 ! o8_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0+
+0*
+0)
+1(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10
+0(
+1'
+1+
+#20
+1&
+0'
+0+
+1*
+#30
+0&
+1%
+1+
+#40
+1$
+0%
+0+
+0*
+1)
+#50
+0$
+1#
+1+
+#60
+1"
+0#
+0+
+1*
+#70
+0"
+1!
+1+
+#80
