@@ -1,0 +1,53 @@
+$date
+	Wed Nov  5 08:02:54 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_priority_encoder $end
+$var wire 1 ! tb_o2_out $end
+$var wire 1 " tb_o1_out $end
+$var reg 1 # tb_i1_in $end
+$var reg 1 $ tb_i2_in $end
+$var reg 1 % tb_i3_in $end
+$var reg 1 & tb_i4_in $end
+$scope module dut $end
+$var wire 1 # i1_in $end
+$var wire 1 $ i2_in $end
+$var wire 1 % i3_in $end
+$var wire 1 & i4_in $end
+$var wire 1 " o1_out $end
+$var wire 1 ! o2_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+0$
+1#
+0"
+0!
+$end
+#10
+1!
+1$
+#20
+0!
+1"
+1%
+#30
+1!
+1&
+#40
+0!
+0"
+0&
+0%
+0$
+0#
+#50
