@@ -1,0 +1,53 @@
+$date
+	Wed Nov  5 09:15:00 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_parity_checker $end
+$var wire 1 ! tb_error_out $end
+$var reg 1 " tb_a_in $end
+$var reg 1 # tb_b_in $end
+$var reg 1 $ tb_p_in $end
+$scope module dut $end
+$var wire 1 " a_in $end
+$var wire 1 # b_in $end
+$var wire 1 ! error_out $end
+$var wire 1 $ p_in $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1$
+#20
+0$
+1#
+#30
+0!
+1$
+#40
+1!
+0$
+0#
+1"
+#50
+0!
+1$
+#60
+0$
+1#
+#70
+1!
+1$
+#80
